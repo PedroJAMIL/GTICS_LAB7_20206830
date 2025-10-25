@@ -10,14 +10,14 @@
     <tr>
         <th>ID</th>
         <th>Nombre</th>
-        <th>Puesto</th>
+        <th>Cargo</th>
     </tr>
     </thead>
     <tbody>
     <tr th:each="trabajador : ${trabajadores}">
         <td th:text="${trabajador.id}"></td>
         <td th:text="${trabajador.nombre}"></td>
-        <td th:text="${trabajador.puesto}"></td>
+        <td th:text="${trabajador.cargo}"></td>
     </tr>
     </tbody>
 </table>
